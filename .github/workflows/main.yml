@@ -29,7 +29,7 @@ jobs:
       run: chmod +x gradlew
       
     - name: Build with Gradle
-      run: ./gradlew assembleRelease
+      run: ./gradlew assembleRelease:zipRelease
       
     - name: Upload KTAify.zip
       uses: actions/upload-artifact@v4
