@@ -29,10 +29,11 @@ jobs:
       run: chmod +x gradlew
       
     - name: Build with Gradle
-      run: ./gradlew assembleRelease
+        run: |
+          ./gradlew zipRelease
       
-    - name: Upload KTAify.zip
-      uses: actions/upload-artifact@v4
-      with:
-        name: KTAify
-        path: module/*
+    - name: Upload release
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.prepareArtifact.outputs.releaseName }}
+          path: "./module-release/*"
