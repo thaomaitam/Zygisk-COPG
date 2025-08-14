@@ -1,4 +1,15 @@
 {
+  "PACKAGES_REDMAGIC_9_PRO": [
+    "com.riotgames.league.teamfighttacticsvn"
+  ],
+  "PACKAGES_REDMAGIC_9_PRO_DEVICE": {
+    "BRAND": "nubia",
+    "DEVICE": "REDMAGIC 9 Pro",
+    "MANUFACTURER": "ZTE",
+    "MODEL": "NX769J",
+    "FINGERPRINT": "nubia/NX769J/NX769J:14/UKQ1.230917.001/20240813.173312:user/release-keys",
+    "PRODUCT": "NX769J"
+  },
   "PACKAGES_PIXEL_6": [
     "com.facebook.rvx1"
   ],
