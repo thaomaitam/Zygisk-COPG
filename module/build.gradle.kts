@@ -15,16 +15,14 @@ val commitHash: String by rootProject.extra
 val abiList: List<String> by rootProject.extra
 
 android {
+    buildFeatures {
+        prefab = true
+    }
     defaultConfig {
         ndk {
             abiFilters.addAll(abiList)
         }
         externalNativeBuild {
-            /*
-            ndkBuild {
-                arguments("MODULE_NAME=$moduleId")
-            }
-            */
             cmake {
                 cppFlags("-std=c++20")
                 arguments(
@@ -46,20 +44,21 @@ android {
     }
 }
 
+val abiMap = mapOf(
+    "arm64-v8a" to "arm64",
+    "armeabi-v7a" to "arm",
+    "x86" to "x86",
+    "x86_64" to "x64"
+)
+
 androidComponents.onVariants { variant ->
     afterEvaluate {
         val variantLowered = variant.name.lowercase()
         val variantCapped = variant.name.capitalizeUS()
         val buildTypeLowered = variant.buildType?.lowercase()
-        val supportedAbis = abiList.joinToString(" ") {
-            when (it) {
-                "arm64-v8a" -> "arm64"
-                "armeabi-v7a" -> "arm"
-                "x86" -> "x86"
-                "x86_64" -> "x64"
-                else -> error("unsupported abi $it")
-            }
-        }
+        val supportedAbis = abiList.map {
+            abiMap[it] ?: error("unsupported abi $it")
+        }.joinToString(" ")
 
         val moduleDir = layout.buildDirectory.file("outputs/module/$variantLowered")
         val zipFileName =
@@ -71,11 +70,11 @@ androidComponents.onVariants { variant ->
             into(moduleDir)
             from(rootProject.layout.projectDirectory.file("README.md"))
             from(layout.projectDirectory.file("template")) {
-                exclude("module.prop", "customize.sh", "post-fs-data.sh", "service.sh")
+                exclude("module.prop", "customize.sh", "post-fs-data.sh", "service.sh", "zn_modules.txt")
                 filter<FixCrLfFilter>("eol" to FixCrLfFilter.CrLf.newInstance("lf"))
             }
             from(layout.projectDirectory.file("template")) {
-                include("module.prop")
+                include("module.prop", "zn_modules.txt")
                 expand(
                     "moduleId" to moduleId,
                     "moduleName" to moduleName,
@@ -93,8 +92,11 @@ androidComponents.onVariants { variant ->
                 filter<ReplaceTokens>("tokens" to tokens)
                 filter<FixCrLfFilter>("eol" to FixCrLfFilter.CrLf.newInstance("lf"))
             }
-            from(layout.buildDirectory.file("intermediates/stripped_native_libs/$variantLowered/strip${variantCapped}DebugSymbols/out/lib")) {
-                into("lib")
+            abiList.forEach { abi ->
+                val arch = abiMap[abi]
+                from(layout.buildDirectory.file("intermediates/stripped_native_libs/$variantLowered/strip${variantCapped}DebugSymbols/out/lib/$abi")) {
+                    into("lib/$arch")
+                }
             }
 
             doLast {
@@ -161,4 +163,8 @@ androidComponents.onVariants { variant ->
             commandLine("adb", "reboot")
         }
     }
+}
+
+dependencies {
+    implementation(libs.cxx)
 }
