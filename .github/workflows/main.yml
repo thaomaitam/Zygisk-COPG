@@ -29,11 +29,10 @@ jobs:
       run: chmod +x gradlew
       
     - name: Build with Gradle
-        run: |
-          ./gradlew zipRelease
+      run: ./gradlew zipRelease
       
     - name: Upload release
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ steps.prepareArtifact.outputs.releaseName }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ steps.prepareArtifact.outputs.releaseName }}
           path: "./module-release/*"
