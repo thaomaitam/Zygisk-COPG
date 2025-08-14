@@ -14,7 +14,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "COPG"
+rootProject.name = "copg"
 include(
     ":module"
 )
