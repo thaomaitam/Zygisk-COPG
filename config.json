@@ -1,149 +1,25 @@
 {
-  "PACKAGES_REDMAGIC_9_PRO": [
-    "com.riotgames.league.teamfighttacticsvn"
+  "PACKAGES_GALAXY_A34_5G": [
+    "com.facebook.rvx18"
   ],
-  "PACKAGES_REDMAGIC_9_PRO_DEVICE": {
-    "BRAND": "nubia",
-    "DEVICE": "REDMAGIC 9 Pro",
-    "MANUFACTURER": "ZTE",
-    "MODEL": "NX769J",
-    "FINGERPRINT": "nubia/NX769J/NX769J:16/VP1A.250805.005/20250815.194721:user/release-keys",
-    "PRODUCT": "NX769J"
+  "PACKAGES_GALAXY_A34_5G_DEVICE": {
+    "BRAND": "samsung",
+    "DEVICE": "Galaxy A34 5G",
+    "MANUFACTURER": "Samsung",
+    "MODEL": "SM-A346B",
+    "FINGERPRINT": "samsung/a34/a34:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Galaxy A34 5G"
   },
-  "PACKAGES_PIXEL_9_PRO_XL": [],
-  "PACKAGES_PIXEL_9_PRO_XL_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel 9 Pro XL",
-    "MANUFACTURER": "Google",
-    "MODEL": "Komodo",
-    "FINGERPRINT": "google/komodo/komodo:16/VP1A.250805.005/12847291:user/release-keys",
-    "PRODUCT": "komodo"
-  },
-  "PACKAGES_PIXEL_9_PRO": [],
-  "PACKAGES_PIXEL_9_PRO_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel 9 Pro",
-    "MANUFACTURER": "Google",
-    "MODEL": "Caiman",
-    "FINGERPRINT": "google/caiman/caiman:16/VP1A.250805.005/12847291:user/release-keys",
-    "PRODUCT": "caiman"
-  },
-  "PACKAGES_PIXEL_FOLD": [],
-  "PACKAGES_PIXEL_FOLD_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel Fold",
-    "MANUFACTURER": "Google",
-    "MODEL": "Felix",
-    "FINGERPRINT": "google/felix/felix:16/VP1A.250805.005/12847291:user/release-keys",
-    "PRODUCT": "felix"
-  },
-  "PACKAGES_PIXEL_9_PRO_FOLD": [],
-  "PACKAGES_PIXEL_9_PRO_FOLD_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel 9 Pro Fold",
-    "MANUFACTURER": "Google",
-    "MODEL": "Comet",
-    "FINGERPRINT": "google/comet/comet:16/AP2A.250805.005/11677807:user/release-keys",
-    "PRODUCT": "comet"
-  },
-  "PACKAGES_PIXEL_TABLET": [
-    "com.riotgames.league.teamfighttacticsvn"
+  "PACKAGES_GALAXY_A54_5G": [
+    "com.facebook.rvx17"
   ],
-  "PACKAGES_PIXEL_TABLET_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel Tablet",
-    "MANUFACTURER": "Google",
-    "MODEL": "Tangorpro",
-    "FINGERPRINT": "google/tangorpro/tangorpro:16/AP2A.250805.005/11677807:user/release-keys",
-    "PRODUCT": "tangorpro"
-  },
-  "PACKAGES_PIXEL_6": [
-    "com.facebook.rvx1"
-  ],
-  "PACKAGES_PIXEL_6_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel 6",
-    "MANUFACTURER": "Google",
-    "MODEL": "Pixel 6",
-    "FINGERPRINT": "google/oriole/oriole:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Pixel 6"
-  },
-  "PACKAGES_PIXEL_6_PRO": [
-    "com.facebook.rvx2"
-  ],
-  "PACKAGES_PIXEL_6_PRO_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel 6 Pro",
-    "MANUFACTURER": "Google",
-    "MODEL": "Pixel 6 Pro",
-    "FINGERPRINT": "google/raven/raven:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Pixel 6 Pro"
-  },
-  "PACKAGES_PIXEL_6A": [
-    "com.facebook.rvx3"
-  ],
-  "PACKAGES_PIXEL_6A_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel 6a",
-    "MANUFACTURER": "Google",
-    "MODEL": "Pixel 6a",
-    "FINGERPRINT": "google/bluejay/bluejay:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Pixel 6a"
-  },
-  "PACKAGES_PIXEL_7": [
-    "com.facebook.rvx4"
-  ],
-  "PACKAGES_PIXEL_7_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel 7",
-    "MANUFACTURER": "Google",
-    "MODEL": "Pixel 7",
-    "FINGERPRINT": "google/panther/panther:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Pixel 7"
-  },
-  "PACKAGES_PIXEL_7_PRO": [
-    "com.facebook.rvx5"
-  ],
-  "PACKAGES_PIXEL_7_PRO_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel 7 Pro",
-    "MANUFACTURER": "Google",
-    "MODEL": "Pixel 7 Pro",
-    "FINGERPRINT": "google/cheetah/cheetah:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Pixel 7 Pro"
-  },
-  "PACKAGES_PIXEL_7A": [
-    "com.facebook.rvx6"
-  ],
-  "PACKAGES_PIXEL_7A_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel 7a",
-    "MANUFACTURER": "Google",
-    "MODEL": "Pixel 7a",
-    "FINGERPRINT": "google/lynx/lynx:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Pixel 7a"
-  },
-  "PACKAGES_PIXEL_8": [
-    "com.facebook.rvx7"
-  ],
-  "PACKAGES_PIXEL_8_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel 8",
-    "MANUFACTURER": "Google",
-    "MODEL": "Pixel 8",
-    "FINGERPRINT": "google/shiba/shiba:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Pixel 8"
-  },
-  "PACKAGES_PIXEL_8_PRO": [
-    "com.facebook.rvx8"
-  ],
-  "PACKAGES_PIXEL_8_PRO_DEVICE": {
-    "BRAND": "google",
-    "DEVICE": "Pixel 8 Pro",
-    "MANUFACTURER": "Google",
-    "MODEL": "Pixel 8 Pro",
-    "FINGERPRINT": "google/husky/husky:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Pixel 8 Pro"
+  "PACKAGES_GALAXY_A54_5G_DEVICE": {
+    "BRAND": "samsung",
+    "DEVICE": "Galaxy A54 5G",
+    "MANUFACTURER": "Samsung",
+    "MODEL": "SM-A546B",
+    "FINGERPRINT": "samsung/a54/a54:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Galaxy A54 5G"
   },
   "PACKAGES_GALAXY_S22": [
     "com.facebook.rvx9"
@@ -153,7 +29,7 @@
     "DEVICE": "Galaxy S22",
     "MANUFACTURER": "Samsung",
     "MODEL": "SM-S901B",
-    "FINGERPRINT": "samsung/s22/s22:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "samsung/s22/s22:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Galaxy S22"
   },
   "PACKAGES_GALAXY_S22_PLUS": [
@@ -164,7 +40,7 @@
     "DEVICE": "Galaxy S22+",
     "MANUFACTURER": "Samsung",
     "MODEL": "SM-S906B",
-    "FINGERPRINT": "samsung/s22plus/s22plus:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "samsung/s22plus/s22plus:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Galaxy S22+"
   },
   "PACKAGES_GALAXY_S22_ULTRA": [
@@ -175,18 +51,18 @@
     "DEVICE": "Galaxy S22 Ultra",
     "MANUFACTURER": "Samsung",
     "MODEL": "SM-S908B",
-    "FINGERPRINT": "samsung/s22ultra/s22ultra:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "samsung/s22ultra/s22ultra:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Galaxy S22 Ultra"
   },
   "PACKAGES_GALAXY_S23": [
     "com.facebook.rvx12"
   ],
   "PACKAGES_GALAXY_S23_DEVICE": {
-    "BRAND": "Samsung",
+    "BRAND": "samsung",
     "DEVICE": "Galaxy S23",
     "MANUFACTURER": "Samsung",
     "MODEL": "SM-S911B",
-    "FINGERPRINT": "samsung/s23/s23:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "samsung/s23/s23:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Galaxy S23"
   },
   "PACKAGES_GALAXY_S23_PLUS": [
@@ -197,7 +73,7 @@
     "DEVICE": "Galaxy S23+",
     "MANUFACTURER": "Samsung",
     "MODEL": "SM-S916B",
-    "FINGERPRINT": "samsung/s23plus/s23plus:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "samsung/s23plus/s23plus:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Galaxy S23+"
   },
   "PACKAGES_GALAXY_S23_ULTRA": [
@@ -208,19 +84,8 @@
     "DEVICE": "Galaxy S23 Ultra",
     "MANUFACTURER": "Samsung",
     "MODEL": "SM-S918B",
-    "FINGERPRINT": "samsung/s23ultra/s23ultra:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "samsung/s23ultra/s23ultra:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Galaxy S23 Ultra"
-  },
-  "PACKAGES_GALAXY_Z_FOLD5": [
-    "com.facebook.rvx15"
-  ],
-  "PACKAGES_GALAXY_Z_FOLD5_DEVICE": {
-    "BRAND": "samsung",
-    "DEVICE": "Galaxy Z Fold5",
-    "MANUFACTURER": "Samsung",
-    "MODEL": "SM-F946B",
-    "FINGERPRINT": "samsung/q5q/q5q:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Galaxy Z Fold5"
   },
   "PACKAGES_GALAXY_Z_FLIP5": [
     "com.facebook.rvx16"
@@ -230,30 +95,19 @@
     "DEVICE": "Galaxy Z Flip5",
     "MANUFACTURER": "Samsung",
     "MODEL": "SM-F731B",
-    "FINGERPRINT": "samsung/q5c/q5c:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "samsung/q5c/q5c:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Galaxy Z Flip5"
   },
-  "PACKAGES_GALAXY_A54_5G": [
-    "com.facebook.rvx17"
+  "PACKAGES_GALAXY_Z_FOLD5": [
+    "com.facebook.rvx15"
   ],
-  "PACKAGES_GALAXY_A54_5G_DEVICE": {
+  "PACKAGES_GALAXY_Z_FOLD5_DEVICE": {
     "BRAND": "samsung",
-    "DEVICE": "Galaxy A54 5G",
+    "DEVICE": "Galaxy Z Fold5",
     "MANUFACTURER": "Samsung",
-    "MODEL": "SM-A546B",
-    "FINGERPRINT": "samsung/a54/a54:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Galaxy A54 5G"
-  },
-  "PACKAGES_GALAXY_A34_5G": [
-    "com.facebook.rvx18"
-  ],
-  "PACKAGES_GALAXY_A34_5G_DEVICE": {
-    "BRAND": "samsung",
-    "DEVICE": "Galaxy A34 5G",
-    "MANUFACTURER": "Samsung",
-    "MODEL": "SM-A346B",
-    "FINGERPRINT": "samsung/a34/a34:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Galaxy A34 5G"
+    "MODEL": "SM-F946B",
+    "FINGERPRINT": "samsung/q5q/q5q:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Galaxy Z Fold5"
   },
   "PACKAGES_FIND_N2": [
     "com.facebook.rvx19"
@@ -263,7 +117,7 @@
     "DEVICE": "Find N2",
     "MANUFACTURER": "Oppo",
     "MODEL": "PGEM10",
-    "FINGERPRINT": "oppo/porsche/porsche:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "oppo/porsche/porsche:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Find N2"
   },
   "PACKAGES_FIND_N2_FLIP": [
@@ -274,8 +128,19 @@
     "DEVICE": "Find N2 Flip",
     "MANUFACTURER": "Oppo",
     "MODEL": "PGFM10",
-    "FINGERPRINT": "oppo/lamborghini/lamborghini:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "oppo/lamborghini/lamborghini:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Find N2 Flip"
+  },
+  "PACKAGES_FIND_X5": [
+    "com.facebook.rvx23"
+  ],
+  "PACKAGES_FIND_X5_DEVICE": {
+    "BRAND": "oppo",
+    "DEVICE": "Find X5",
+    "MANUFACTURER": "Oppo",
+    "MODEL": "PHN110",
+    "FINGERPRINT": "oppo/leopard/leopard:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Find X5"
   },
   "PACKAGES_FIND_X6": [
     "com.facebook.rvx21"
@@ -285,7 +150,7 @@
     "DEVICE": "Find X6",
     "MANUFACTURER": "Oppo",
     "MODEL": "PHF110",
-    "FINGERPRINT": "oppo/phoenix/phoenix:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "oppo/phoenix/phoenix:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Find X6"
   },
   "PACKAGES_FIND_X6_PRO": [
@@ -296,30 +161,162 @@
     "DEVICE": "Find X6 Pro",
     "MANUFACTURER": "Oppo",
     "MODEL": "PHM110",
-    "FINGERPRINT": "oppo/mandrill/mandrill:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "oppo/mandrill/mandrill:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Find X6 Pro"
   },
-  "PACKAGES_FIND_X5": [
-    "com.facebook.rvx23"
+  "PACKAGES_PIXEL_6": [
+    "com.facebook.rvx1"
   ],
-  "PACKAGES_FIND_X5_DEVICE": {
-    "BRAND": "oppo",
-    "DEVICE": "Find X5",
-    "MANUFACTURER": "Oppo",
-    "MODEL": "PHN110",
-    "FINGERPRINT": "oppo/leopard/leopard:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Find X5"
+  "PACKAGES_PIXEL_6_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel 6",
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 6",
+    "FINGERPRINT": "google/oriole/oriole:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Pixel 6"
   },
-  "PACKAGES_RENO10_PRO_5G": [
-    "com.facebook.rvx24"
+  "PACKAGES_PIXEL_6_PRO": [
+    "com.facebook.rvx2"
   ],
-  "PACKAGES_RENO10_PRO_5G_DEVICE": {
-    "BRAND": "oppo",
-    "DEVICE": "Reno10 Pro 5G",
-    "MANUFACTURER": "Oppo",
-    "MODEL": "CPH2529",
-    "FINGERPRINT": "oppo/martini/martini:16/UPB1.250805.005/10343536:user/release-keys",
-    "PRODUCT": "Reno10 Pro 5G"
+  "PACKAGES_PIXEL_6_PRO_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel 6 Pro",
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 6 Pro",
+    "FINGERPRINT": "google/raven/raven:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Pixel 6 Pro"
+  },
+  "PACKAGES_PIXEL_6A": [
+    "com.facebook.rvx3"
+  ],
+  "PACKAGES_PIXEL_6A_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel 6a",
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 6a",
+    "FINGERPRINT": "google/bluejay/bluejay:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Pixel 6a"
+  },
+  "PACKAGES_PIXEL_7": [
+    "com.facebook.rvx4"
+  ],
+  "PACKAGES_PIXEL_7_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel 7",
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 7",
+    "FINGERPRINT": "google/panther/panther:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Pixel 7"
+  },
+  "PACKAGES_PIXEL_7_PRO": [
+    "com.facebook.rvx5"
+  ],
+  "PACKAGES_PIXEL_7_PRO_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel 7 Pro",
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 7 Pro",
+    "FINGERPRINT": "google/cheetah/cheetah:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Pixel 7 Pro"
+  },
+  "PACKAGES_PIXEL_7A": [
+    "com.facebook.rvx6"
+  ],
+  "PACKAGES_PIXEL_7A_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel 7a",
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 7a",
+    "FINGERPRINT": "google/lynx/lynx:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Pixel 7a"
+  },
+  "PACKAGES_PIXEL_8": [
+    "com.facebook.rvx7"
+  ],
+  "PACKAGES_PIXEL_8_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel 8",
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 8",
+    "FINGERPRINT": "google/shiba/shiba:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Pixel 8"
+  },
+  "PACKAGES_PIXEL_8_PRO": [
+    "com.facebook.rvx8"
+  ],
+  "PACKAGES_PIXEL_8_PRO_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel 8 Pro",
+    "MANUFACTURER": "Google",
+    "MODEL": "Pixel 8 Pro",
+    "FINGERPRINT": "google/husky/husky:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Pixel 8 Pro"
+  },
+  "PACKAGES_PIXEL_9_PRO": [
+    "com.ss.android.ugc.trill",
+    "com.facebook.ksht"
+  ],
+  "PACKAGES_PIXEL_9_PRO_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel 9 Pro",
+    "MANUFACTURER": "Google",
+    "MODEL": "Caiman",
+    "FINGERPRINT": "google/caiman/caiman:15/AP2A.240805.005/12847291:user/release-keys",
+    "PRODUCT": "caiman"
+  },
+  "PACKAGES_PIXEL_9_PRO_FOLD": [
+    "com.kiwibrowser.browser"
+  ],
+  "PACKAGES_PIXEL_9_PRO_FOLD_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel 9 Pro Fold",
+    "MANUFACTURER": "Google",
+    "MODEL": "Comet",
+    "FINGERPRINT": "google/comet/comet:15/AP2A.240805.005/11677807:user/release-keys",
+    "PRODUCT": "comet"
+  },
+  "PACKAGES_PIXEL_9_PRO_XL": [
+    "com.facebook.katana",
+    "flar2.devcheck"
+  ],
+  "PACKAGES_PIXEL_9_PRO_XL_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel 9 Pro XL",
+    "MANUFACTURER": "Google",
+    "MODEL": "Komodo",
+    "FINGERPRINT": "google/komodo/komodo:15/AP2A.240805.005/12847291:user/release-keys",
+    "PRODUCT": "komodo"
+  },
+  "PACKAGES_PIXEL_FOLD": [
+    "com.facebook.tod"
+  ],
+  "PACKAGES_PIXEL_FOLD_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel Fold",
+    "MANUFACTURER": "Google",
+    "MODEL": "Felix",
+    "FINGERPRINT": "google/felix/felix:15/AP2A.240805.005/11677807:user/release-keys",
+    "PRODUCT": "felix"
+  },
+  "PACKAGES_PIXEL_TABLET": [],
+  "PACKAGES_PIXEL_TABLET_DEVICE": {
+    "BRAND": "google",
+    "DEVICE": "Pixel Tablet",
+    "MANUFACTURER": "Google",
+    "MODEL": "Tangorpro",
+    "FINGERPRINT": "google/tangorpro/tangorpro:15/AP2A.240805.005/11677807:user/release-keys",
+    "PRODUCT": "tangorpro"
+  },
+  "PACKAGES_REDMAGIC_9_PRO": [
+    "com.riotgames.league.teamfighttacticsvn"
+  ],
+  "PACKAGES_REDMAGIC_9_PRO_DEVICE": {
+    "BRAND": "nubia",
+    "DEVICE": "REDMAGIC 9 Pro",
+    "MANUFACTURER": "ZTE",
+    "MODEL": "NX769J",
+    "FINGERPRINT": "nubia/NX769J/NX769J:14/AP1A.240505.004/20250815.194721:user/release-keys",
+    "PRODUCT": "NX769J"
   },
   "PACKAGES_RENO8_PRO_5G": [
     "com.facebook.rvx25"
@@ -329,8 +326,19 @@
     "DEVICE": "Reno8 Pro 5G",
     "MANUFACTURER": "Oppo",
     "MODEL": "CPH2483",
-    "FINGERPRINT": "oppo/polar/polar:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "oppo/polar/polar:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Reno8 Pro 5G"
+  },
+  "PACKAGES_RENO10_PRO_5G": [
+    "com.facebook.rvx24"
+  ],
+  "PACKAGES_RENO10_PRO_5G_DEVICE": {
+    "BRAND": "oppo",
+    "DEVICE": "Reno10 Pro 5G",
+    "MANUFACTURER": "Oppo",
+    "MODEL": "CPH2529",
+    "FINGERPRINT": "oppo/martini/martini:14/AP1A.240505.004/10343536:user/release-keys",
+    "PRODUCT": "Reno10 Pro 5G"
   },
   "PACKAGES_X90": [
     "com.facebook.rvx26"
@@ -340,7 +348,7 @@
     "DEVICE": "X90",
     "MANUFACTURER": "Vivo",
     "MODEL": "X90",
-    "FINGERPRINT": "vivo/v2218a/v2218a:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "vivo/v2218a/v2218a:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "X90"
   },
   "PACKAGES_X90_PRO": [
@@ -351,7 +359,7 @@
     "DEVICE": "X90 Pro",
     "MANUFACTURER": "Vivo",
     "MODEL": "X90 Pro",
-    "FINGERPRINT": "vivo/v2219a/v2219a:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "vivo/v2219a/v2219a:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "X90 Pro"
   },
   "PACKAGES_X90_PRO_PLUS": [
@@ -362,19 +370,18 @@
     "DEVICE": "X90 Pro+",
     "MANUFACTURER": "Vivo",
     "MODEL": "X90 Pro+",
-    "FINGERPRINT": "vivo/v2220a/v2220a:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "vivo/v2220a/v2220a:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "X90 Pro+"
   },
   "PACKAGES_Y78_5G": [
-    "com.facebook.rvx29",
-    "flar2.devcheck"
+    "com.facebook.rvx29"
   ],
   "PACKAGES_Y78_5G_DEVICE": {
     "BRAND": "vivo",
     "DEVICE": "Y78 5G",
     "MANUFACTURER": "Vivo",
     "MODEL": "Y78 5G",
-    "FINGERPRINT": "vivo/v2278/v2278:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "vivo/v2278/v2278:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Y78 5G"
   },
   "PACKAGES_Y100": [
@@ -385,7 +392,7 @@
     "DEVICE": "Y100",
     "MANUFACTURER": "Vivo",
     "MODEL": "Y100",
-    "FINGERPRINT": "vivo/v2239/v2239:16/UPB1.250805.005/10343536:user/release-keys",
+    "FINGERPRINT": "vivo/v2239/v2239:14/AP1A.240505.004/10343536:user/release-keys",
     "PRODUCT": "Y100"
   }
 }
